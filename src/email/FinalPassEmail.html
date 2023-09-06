@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leets 면접 안내</title>
+  </head>
+  <body>
+    <div th:if="${theme == 1}" style="background-color: rgb(255, 255, 255)">
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          background-color: rgba(74, 147, 255, 0.5);
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+          padding-left: 2px;
+        "
+      >
+        <tr>
+          <td style="padding: 20px">
+            <img
+              src="https://i.imgur.com/FvQO2Uk.png"
+              alt="logo"
+              style="
+                width: 39px;
+                height: 25px;
+                vertical-align: middle;
+                fill: rgb(74, 147, 255);
+              "
+            />
+            Leets
+          </td>
+        </tr>
+      </table>
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          text-align: center;
+          margin-top: 50px;
+          background-image: url('https://i.imgur.com/hQrp1lA.png');
+          background-size: 450px 483px;
+          background-repeat: no-repeat;
+          background-position: center 35%;
+        "
+      >
+        <tr>
+          <td
+            style="
+              color: black;
+              font-size: 14.5px;
+              font-weight: 700;
+              padding: 20px;
+              position: relative;
+              text-align: left;
+              margin-bottom: 30px;
+            "
+          >
+            <span th:text="${name}"></span>님 안녕하세요. Leets 2기 면접
+            담당자입니다. <br />
+            귀한 시간을 내어 Leets 2기의 최종 면접까지 참여 해 주셔서
+            감사드립니다.
+            <br />
+            <br />
+            <br />
+            <span th:text="${name}"></span>님의 Leets 2기 최종 합격을 진심으로
+            축하 드립니다! <br />
+            <span th:text="${name}"></span>님과 Leets를 함께하게 되어
+            두근거립니다!<br />
+            <br />
+            <br />
+            곧 단체 방에 초대해 드릴 예정입니다.
+            <br />
+            다시 한 번 합격을 진심으로 축하드립니다!
+          </td>
+        </tr>
+        <td style="height: 80px"></td>
+        <tr>
+          <td
+            style="
+              text-align: center;
+              color: rgb(78, 78, 78);
+              font-size: 14.5px;
+            "
+          >
+            <div style="margin-bottom: 8px">
+              오픈채팅:
+              <a href="https://open.kakao.com/o/sObD2U5e"
+                >https://open.kakao.com/o/sObD2U5e</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div th:if="${theme == 2}" style="background-color: rgb(255, 255, 255)">
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          background-color: rgba(46, 183, 156, 0.5);
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+          padding-left: 2px;
+        "
+      >
+        <tr>
+          <td style="padding: 20px">
+            <img
+              src="https://i.imgur.com/Qmejhsi.png"
+              alt="logo"
+              style="
+                width: 39px;
+                height: 25px;
+                vertical-align: middle;
+                fill: rgb(46, 183, 156);
+              "
+            />
+            Leets
+          </td>
+        </tr>
+      </table>
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          text-align: center;
+          margin-top: 50px;
+          background-image: url('https://i.imgur.com/hQrp1lA.png');
+          background-size: 450px 483px;
+          background-repeat: no-repeat;
+          background-position: center 35%;
+        "
+      >
+        <tr>
+          <td
+            style="
+              color: black;
+              font-size: 14.5px;
+              font-weight: 700;
+              padding: 20px;
+              position: relative;
+              text-align: left;
+              margin-bottom: 30px;
+            "
+          >
+            <span th:text="${name}"></span>님 안녕하세요. Leets 2기 면접
+            담당자입니다. <br />
+            귀한 시간을 내어 Leets 2기의 최종 면접까지 참여 해 주셔서
+            감사드립니다.
+            <br />
+            <br />
+            <br />
+            <span th:text="${name}"></span>님의 Leets 2기 최종 합격을 진심으로
+            축하 드립니다! <br />
+            <span th:text="${name}"></span>님과 Leets를 함께하게 되어
+            두근거립니다!<br />
+            <br />
+            <br />
+            곧 단체 방에 초대해 드릴 예정입니다.
+            <br />
+            다시 한 번 합격을 진심으로 축하드립니다!
+          </td>
+        </tr>
+        <td style="height: 80px"></td>
+        <tr>
+          <td
+            style="
+              text-align: center;
+              color: rgb(78, 78, 78);
+              font-size: 14.5px;
+            "
+          >
+            <div style="margin-bottom: 8px">
+              오픈채팅:
+              <a href="https://open.kakao.com/o/sObD2U5e"
+                >https://open.kakao.com/o/sObD2U5e</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div th:if="${theme == 3}" style="background-color: rgb(255, 255, 255)">
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          background-color: rgba(252, 184, 54, 0.5);
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+          padding-left: 2px;
+        "
+      >
+        <tr>
+          <td style="padding: 20px">
+            <img
+              src="https://i.imgur.com/me971ls.png"
+              alt="logo"
+              style="
+                width: 39px;
+                height: 25px;
+                vertical-align: middle;
+                fill: rgb(252, 184, 54);
+              "
+            />
+            Leets
+          </td>
+        </tr>
+      </table>
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          text-align: center;
+          margin-top: 50px;
+          background-image: url('https://i.imgur.com/hQrp1lA.png');
+          background-size: 450px 483px;
+          background-repeat: no-repeat;
+          background-position: center 35%;
+        "
+      >
+        <tr>
+          <td
+            style="
+              color: black;
+              font-size: 14.5px;
+              font-weight: 700;
+              padding: 20px;
+              position: relative;
+              text-align: left;
+              margin-bottom: 30px;
+            "
+          >
+            <span th:text="${name}"></span>님 안녕하세요. Leets 2기 면접
+            담당자입니다. <br />
+            귀한 시간을 내어 Leets 2기의 최종 면접까지 참여 해 주셔서
+            감사드립니다.
+            <br />
+            <br />
+            <br />
+            <span th:text="${name}"></span>님의 Leets 2기 최종 합격을 진심으로
+            축하 드립니다! <br />
+            <span th:text="${name}"></span>님과 Leets를 함께하게 되어
+            두근거립니다!<br />
+            <br />
+            <br />
+            곧 단체 방에 초대해 드릴 예정입니다.
+            <br />
+            다시 한 번 합격을 진심으로 축하드립니다!
+          </td>
+        </tr>
+        <td style="height: 80px"></td>
+        <tr>
+          <td
+            style="
+              text-align: center;
+              color: rgb(78, 78, 78);
+              font-size: 14.5px;
+            "
+          >
+            <div style="margin-bottom: 8px">
+              오픈채팅:
+              <a href="https://open.kakao.com/o/sObD2U5e"
+                >https://open.kakao.com/o/sObD2U5e</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

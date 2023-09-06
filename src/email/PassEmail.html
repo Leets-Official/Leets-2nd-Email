@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leets 면접 안내</title>
+  </head>
+  <body>
+    <div
+      th:if="${randomValue == 1}"
+      style="background-color: rgb(255, 255, 255)"
+    >
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          background-color: rgba(74, 147, 255, 0.5);
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+          padding-left: 2px;
+        "
+      >
+        <tr>
+          <td style="padding: 20px">
+            <img
+              src="https://i.imgur.com/FvQO2Uk.png"
+              alt="logo"
+              style="
+                width: 39px;
+                height: 25px;
+                vertical-align: middle;
+                fill: rgb(74, 147, 255);
+              "
+            />
+            Leets
+          </td>
+        </tr>
+      </table>
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          text-align: center;
+          margin-top: 50px;
+          background-image: url('https://i.imgur.com/g2T7CbA.png');
+          background-size: 218.76px 129.26px;
+          background-repeat: no-repeat;
+          background-position: center 35%;
+        "
+      >
+        <tr>
+          <td
+            style="
+              color: black;
+              font-size: 14.5px;
+              font-weight: 700;
+              padding: 20px;
+              position: relative;
+              text-align: left;
+              margin-bottom: 30px;
+            "
+          >
+            안녕하세요. Leets입니다. <br />
+            <span th:text="${name}"></span>님의 서류 합격을 진심으로
+            축하드립니다!<br />
+            <br />
+            <br />
+            <span th:text="${name}"></span>님의 면접 날짜는 아래와 같습니다.
+            <br />
+            일시 :
+            <span th:text="${fixedInterviewDate}"></span><br />
+            장소 : <span th:text="${interviewPlace}"></span>
+            <br />
+            <br />
+            면접을 희망 하신다면, 아래의 면접 지원 버튼을 클릭 해주세요.
+            <br />문의 사항은 아래의 오픈 카카오로 연락 주시면 감사하겠습니다.
+            <br /><br />다시 한 번 합격을 축하 드리며 면접에서 뵐 날을
+            기대하겠습니다. <br />
+            (버튼 클릭 후 홈페이지로 이동 된다면 정상적으로 처리된 것입니다.)
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">
+            <a
+              th:href="${url}"
+              style="
+                display: inline-block;
+                width: 140px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: rgb(74, 147, 255);
+                color: white;
+                font-size: 14px;
+                line-height: 50px;
+                text-decoration: none;
+                font-weight: 800;
+                margin-top: 80px;
+                margin-right: 20px;
+                margin-bottom: 30px;
+              "
+              onclick="submitApplication()"
+            >
+              면접 지원하기
+            </a>
+            <a
+              th:href="${url}"
+              style="
+                display: inline-block;
+                width: 140px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: #dedede;
+                color: white;
+                font-size: 14px;
+                line-height: 50px;
+                text-decoration: none;
+                font-weight: 800;
+                margin-top: 80px;
+                margin-left: 20px;
+                margin-bottom: 40px;
+              "
+              onclick="submitApplication()"
+            >
+              면접 미참여
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              text-align: center;
+              color: rgb(78, 78, 78);
+              font-size: 14.5px;
+            "
+          >
+            <div style="margin-bottom: 8px">
+              오픈채팅:
+              <a href="https://open.kakao.com/o/sObD2U5e"
+                >https://open.kakao.com/o/sObD2U5e</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div
+      th:if="${randomValue == 2}"
+      style="background-color: rgb(255, 255, 255)"
+    >
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          background-color: rgba(46, 183, 156, 0.5);
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+          padding-left: 2px;
+        "
+      >
+        <tr>
+          <td style="padding: 20px">
+            <img
+              src="https://i.imgur.com/Qmejhsi.png"
+              alt="logo"
+              style="
+                width: 39px;
+                height: 25px;
+                vertical-align: middle;
+                fill: rgb(46, 183, 156);
+              "
+            />
+            Leets
+          </td>
+        </tr>
+      </table>
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          text-align: center;
+          margin-top: 50px;
+          background-image: url('https://i.imgur.com/L6dHI2T.png');
+          background-size: 218.76px 129.26px;
+          background-repeat: no-repeat;
+          background-position: center 35%;
+        "
+      >
+        <tr>
+          <td
+            style="
+              color: black;
+              font-size: 14.5px;
+              font-weight: 700;
+              padding: 20px;
+              position: relative;
+              text-align: left;
+              margin-bottom: 30px;
+            "
+          >
+            안녕하세요. Leets입니다. <br />
+            <span th:text="${name}"></span>님의 서류 합격을 진심으로
+            축하드립니다!<br />
+            <br />
+            <br />
+            <span th:text="${name}"></span>님의 면접 날짜는 아래와 같습니다.
+            <br />
+            일시 :
+            <span th:text="${fixedInterviewDate}"></span><br />
+            장소 : <span th:text="${interviewPlace}"></span>
+            <br />
+            <br />
+            면접을 희망 하신다면, 아래의 면접 지원 버튼을 클릭 해주세요.
+            <br />문의 사항은 아래의 오픈 카카오로 연락 주시면 감사하겠습니다.
+            <br /><br />다시 한 번 합격을 축하 드리며 면접에서 뵐 날을
+            기대하겠습니다. <br />
+            (버튼 클릭 후 홈페이지로 이동 된다면 정상적으로 처리된 것입니다.)
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">
+            <a
+              th:href="${url}"
+              style="
+                display: inline-block;
+                width: 140px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: rgb(46, 183, 156);
+                color: white;
+                font-size: 14px;
+                line-height: 50px;
+                text-decoration: none;
+                font-weight: 800;
+                margin-top: 80px;
+                margin-right: 20px;
+                margin-bottom: 30px;
+              "
+              onclick="submitApplication()"
+            >
+              면접 지원하기
+            </a>
+            <a
+              th:href="${url}"
+              style="
+                display: inline-block;
+                width: 140px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: #dedede;
+                color: white;
+                font-size: 14px;
+                line-height: 50px;
+                text-decoration: none;
+                font-weight: 800;
+                margin-top: 80px;
+                margin-left: 20px;
+                margin-bottom: 40px;
+              "
+              onclick="submitApplication()"
+            >
+              면접 미참여
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              text-align: center;
+              color: rgb(78, 78, 78);
+              font-size: 14.5px;
+            "
+          >
+            <div style="margin-bottom: 8px">
+              오픈채팅:
+              <a href="https://open.kakao.com/o/sObD2U5e"
+                >https://open.kakao.com/o/sObD2U5e</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div
+      th:if="${randomValue == 3}"
+      style="background-color: rgb(255, 255, 255)"
+    >
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          background-color: rgba(252, 184, 54, 0.5);
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+          padding-left: 2px;
+        "
+      >
+        <tr>
+          <td style="padding: 20px">
+            <img
+              src="https://i.imgur.com/me971ls.png"
+              alt="logo"
+              style="
+                width: 39px;
+                height: 25px;
+                vertical-align: middle;
+                fill: rgb(252, 184, 54);
+              "
+            />
+            Leets
+          </td>
+        </tr>
+      </table>
+      <table
+        style="
+          width: 100%;
+          max-width: 536px;
+          margin: 0px auto;
+          text-align: center;
+          margin-top: 50px;
+          background-image: url('https://i.imgur.com/DmLBCyB.png');
+          background-size: 218.76px 129.26px;
+          background-repeat: no-repeat;
+          background-position: center 35%;
+        "
+      >
+        <tr>
+          <td
+            style="
+              color: black;
+              font-size: 14.5px;
+              font-weight: 700;
+              padding: 20px;
+              position: relative;
+              text-align: left;
+              margin-bottom: 30px;
+            "
+          >
+            안녕하세요. Leets입니다. <br />
+            <span th:text="${name}"></span>님의 서류 합격을 진심으로
+            축하드립니다!<br />
+            <br />
+            <br />
+            <span th:text="${name}"></span>님의 면접 날짜는 아래와 같습니다.
+            <br />
+            일시 :
+            <span th:text="${fixedInterviewDate}"></span><br />
+            장소 : <span th:text="${interviewPlace}"></span>
+            <br />
+            <br />
+            면접을 희망 하신다면, 아래의 면접 지원 버튼을 클릭 해주세요.
+            <br />문의 사항은 아래의 오픈 카카오로 연락 주시면 감사하겠습니다.
+            <br /><br />다시 한 번 합격을 축하 드리며 면접에서 뵐 날을
+            기대하겠습니다. <br />
+            (버튼 클릭 후 홈페이지로 이동 된다면 정상적으로 처리된 것입니다.)
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">
+            <a
+              th:href="${url}"
+              style="
+                display: inline-block;
+                width: 140px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: rgb(252, 184, 54);
+                color: white;
+                font-size: 14px;
+                line-height: 50px;
+                text-decoration: none;
+                font-weight: 800;
+                margin-top: 80px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+              "
+              onclick="submitApplication()"
+            >
+              면접 참여
+            </a>
+            <a
+              th:href="${url}"
+              style="
+                display: inline-block;
+                width: 140px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: #dedede;
+                color: white;
+                font-size: 14px;
+                line-height: 50px;
+                text-decoration: none;
+                font-weight: 800;
+                margin-top: 80px;
+                margin-left: 20px;
+                margin-bottom: 40px;
+              "
+              onclick="submitApplication()"
+            >
+              면접 미참여
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td
+            style="
+              text-align: center;
+              color: rgb(78, 78, 78);
+              font-size: 14.5px;
+            "
+          >
+            <div style="margin-bottom: 8px; margin-top: 20px">
+              오픈채팅:
+              <a href="https://open.kakao.com/o/sObD2U5e"
+                >https://open.kakao.com/o/sObD2U5e</a
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+      function submitApplication() {}
+    </script>
+  </body>
+</html>
