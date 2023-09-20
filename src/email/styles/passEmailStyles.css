@@ -1,0 +1,166 @@
+.tableText {
+  color: black;
+  font-size: 14.5px;
+  font-weight: 700;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.notParticipationBtn {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dedede;
+  color: white;
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.footerText {
+  text-align: center;
+  color: rgb(78, 78, 78);
+  font-size: 14.5px;
+}
+
+.blueTable {
+  width: 100%;
+  max-width: 536px;
+  margin: 0px auto;
+  background-color: rgba(74, 147, 255, 0.5);
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-left: 2px;
+}
+
+.blueLogo {
+  width: 39px;
+  height: 25px;
+  vertical-align: middle;
+  fill: rgb(74, 147, 255);
+}
+
+.blueTableBG {
+  width: 100%;
+  max-width: 536px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 50px;
+  background-image: url("https://i.imgur.com/g2T7CbA.png");
+  background-size: 218.76px 129.26px;
+  background-repeat: no-repeat;
+  background-position: center 35%;
+}
+
+.blueParticipationBtn {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(74, 147, 255);
+  color: white;
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.mintTable {
+  width: 100%;
+  max-width: 536px;
+  margin: 0px auto;
+  background-color: rgba(46, 183, 156, 0.5);
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-left: 2px;
+}
+
+.mintLogo {
+  width: 39px;
+  height: 25px;
+  vertical-align: middle;
+  fill: rgb(46, 183, 156);
+}
+
+.mintTableBG {
+  width: 100%;
+  max-width: 536px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 50px;
+  background-image: url("https://i.imgur.com/L6dHI2T.png");
+  background-size: 218.76px 129.26px;
+  background-repeat: no-repeat;
+  background-position: center 35%;
+}
+
+.mintParticipationBtn {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(46, 183, 156);
+  color: white;
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.yellowTable {
+  width: 100%;
+  max-width: 536px;
+  margin: 0px auto;
+  background-color: rgba(252, 184, 54, 0.5);
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-left: 2px;
+}
+
+.yellowLogo {
+  width: 39px;
+  height: 25px;
+  vertical-align: middle;
+  fill: rgb(252, 184, 54);
+}
+
+.yellowTableBG {
+  width: 100%;
+  max-width: 536px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 50px;
+  background-image: url("https://i.imgur.com/DmLBCyB.png");
+  background-size: 218.76px 129.26px;
+  background-repeat: no-repeat;
+  background-position: center 35%;
+}
+
+.yellowParticipationBtn {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(252, 184, 54);
+  color: white;
+  font-size: 14px;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}

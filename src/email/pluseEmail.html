@@ -4,62 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leets 면접 안내</title>
+    <link rel="stylesheet" href="./styles/pulsEmailStyles.css" />
   </head>
   <body>
     <div th:if="${theme == 1}" style="background-color: rgb(255, 255, 255)">
-      <table
-        style="
-          width: 100%;
-          max-width: 536px;
-          margin: 0px auto;
-          background-color: rgba(74, 147, 255, 0.5);
-          font-size: 30px;
-          color: rgb(255, 255, 255);
-          padding-left: 2px;
-        "
-      >
+      <table class="blueTable">
         <tr>
           <td style="padding: 20px">
             <img
               src="https://i.imgur.com/FvQO2Uk.png"
               alt="logo"
-              style="
-                width: 39px;
-                height: 25px;
-                vertical-align: middle;
-                fill: rgb(74, 147, 255);
-              "
+              class="blueImg"
             />
             Leets
           </td>
         </tr>
       </table>
-      <table
-        style="
-          width: 100%;
-          max-width: 536px;
-          margin: 0px auto;
-          text-align: center;
-          margin-top: 50px;
-          background-image: url('https://i.imgur.com/g2T7CbA.png');
-          background-size: 218.76px 129.26px;
-          background-repeat: no-repeat;
-          background-position: center 50%;
-        "
-      >
+      <table class="mainTable">
         <tr>
-          <td
-            style="
-              color: black;
-              font-size: 14.5px;
-              font-weight: 700;
-              padding: 20px;
-              position: relative;
-              text-align: left;
-              margin-bottom: 30px;
-              line-height: 22px;
-            "
-          >
+          <td class="mainText">
             <span>
               [Leets 추가 안내] <br />
               <br />
@@ -106,59 +69,21 @@
     </div>
 
     <div th:if="${theme == 2}" style="background-color: rgb(255, 255, 255)">
-      <table
-        style="
-          width: 100%;
-          max-width: 536px;
-          margin: 0px auto;
-          background-color: rgba(46, 183, 156, 0.5);
-          font-size: 30px;
-          color: rgb(255, 255, 255);
-          padding-left: 2px;
-        "
-      >
+      <table class="mintTable">
         <tr>
           <td style="padding: 20px">
             <img
               src="https://i.imgur.com/Qmejhsi.png"
               alt="logo"
-              style="
-                width: 39px;
-                height: 25px;
-                vertical-align: middle;
-                fill: rgb(46, 183, 156);
-              "
+              class="mintImg"
             />
             Leets
           </td>
         </tr>
       </table>
-      <table
-        style="
-          width: 100%;
-          max-width: 536px;
-          margin: 0px auto;
-          text-align: center;
-          margin-top: 50px;
-          background-image: url('https://i.imgur.com/L6dHI2T.png');
-          background-size: 218.76px 129.26px;
-          background-repeat: no-repeat;
-          background-position: center 50%;
-        "
-      >
+      <table class="mainMintTable">
         <tr>
-          <td
-            style="
-              color: black;
-              font-size: 14.5px;
-              font-weight: 700;
-              padding: 20px;
-              position: relative;
-              text-align: left;
-              margin-bottom: 30px;
-              line-height: 22px;
-            "
-          >
+          <td class="mainText">
             <span>
               [Leets 추가 안내] <br />
               <br />
@@ -205,59 +130,21 @@
     </div>
 
     <div th:if="${theme == 3}" style="background-color: rgb(255, 255, 255)">
-      <table
-        style="
-          width: 100%;
-          max-width: 536px;
-          margin: 0px auto;
-          background-color: rgba(252, 184, 54, 0.5);
-          font-size: 30px;
-          color: rgb(255, 255, 255);
-          padding-left: 2px;
-        "
-      >
+      <table class="yellowTable">
         <tr>
           <td style="padding: 20px">
             <img
               src="https://i.imgur.com/me971ls.png"
               alt="logo"
-              style="
-                width: 39px;
-                height: 25px;
-                vertical-align: middle;
-                fill: rgb(252, 184, 54);
-              "
+              class="yellowImg"
             />
             Leets
           </td>
         </tr>
       </table>
-      <table
-        style="
-          width: 100%;
-          max-width: 536px;
-          margin: 0px auto;
-          text-align: center;
-          margin-top: 50px;
-          background-image: url('https://i.imgur.com/DmLBCyB.png');
-          background-size: 218.76px 129.26px;
-          background-repeat: no-repeat;
-          background-position: center 50%;
-        "
-      >
+      <table class="mainYellowTable">
         <tr>
-          <td
-            style="
-              color: black;
-              font-size: 14.5px;
-              font-weight: 700;
-              padding: 20px;
-              position: relative;
-              text-align: left;
-              margin-bottom: 30px;
-              line-height: 22px;
-            "
-          >
+          <td class="mainText">
             <span>
               [Leets 추가 안내] <br />
               <br />
