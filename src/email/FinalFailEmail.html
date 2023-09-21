@@ -7,69 +7,23 @@
     <link rel="stylesheet" href="./styles/failEmailStyles.css" />
   </head>
   <body>
-    <div
-      th:if="${randomValue == 1}"
-      style="background-color: rgb(255, 255, 255)"
-    >
+    <div style="background-color: rgb(255, 255, 255)">
       <table
-        class="blueTable"
+      th:class = "${theme == 1 ? 'blueTable' : theme == 2 ? 'mintTable' : 'yellowTable' }"
       >
         <tr>
           <td style="padding: 20px">
             <img
               src="https://i.imgur.com/FvQO2Uk.png"
               alt="logo"
-              class="blueLogo"
-            />
-            Leets
-          </td>
-        </tr>
-      </table>
-    </div>
-
-    <div
-      th:if="${randomValue == 2}"
-      style="background-color: rgb(255, 255, 255)"
-    >
-      <table
-        class="mintTable"
-      >
-        <tr>
-          <td style="padding: 20px">
-            <img
-              src="https://i.imgur.com/Qmejhsi.png"
-              alt="logo"
-              class="mintLogo"
+              th:class = "${theme == 1 ? 'blueLogo' : theme == 2 ? 'mintLogo' : 'yellowLogo' }"
             />
             Leets
           </td>
         </tr>
       </table>
 
-      <div
-      th:if="${randomValue == 3}"
-      style="background-color: rgb(255, 255, 255)"
-    >
-      <table
-        
-        class="yellowTable"
-      >
-        <tr>
-          <td style="padding: 20px">
-            <img
-              src="https://i.imgur.com/me971ls.png"
-              alt="logo"
-              class="yellowLogo"
-            />
-            Leets
-          </td>
-        </tr>
-      </table>
-
-      <table
-        th:if="${randomValue == 1}"
-        class="blueTableBG"
-      >
+      <table th:class = "${theme == 1 ? 'blueTableBG' : theme == 2 ? 'mintTableBG' : 'yellowTableBG' }">
         <tr>
           <td
             class="tableText"
@@ -103,80 +57,7 @@
           </td>
         </tr>
       </table>
-      <table
-        th:if="${randomValue == 2}"
-        class="mintTableBG"
-      >
-        <tr>
-          <td
-            class="tableText"
-          >
-          안녕하세요. Leets입니다. <br />
-          귀한 시간을 내어 Leets에 많은 관심을 가지고 지원해 주셔서 감사합니다.
-          <br />
-          <br />
-          최종 합격은 지원서와 면접을 면밀히 검토하여 결정했습니다. <br />
-          <br />
-          제한 된 모집 인원으로 인해 Leets와 함께할 수 없다는 말씀을 전해드려 아쉬운 마음입니다.
-          <br />
-          비록 이번에는 지원자와 임원진의 입장에서 만나 뵙게 되었지만 <br />
-          추후 동료 대 동료의 입장으로 다시 만나 뵐 날을 기대하겠습니다.
-          <br />
-          <br />
-          Leets에 지원해 주셔서 다시 한 번 감사합니다.
-          </td>
-        </tr>
-        <td style="height: 80px"></td>
-        <tr>
-          <td
-            class="footerText"
-          >
-            <div style="margin-bottom: 8px">
-              오픈채팅:
-              <a href="https://open.kakao.com/o/sObD2U5e"
-                >https://open.kakao.com/o/sObD2U5e</a
-              >
-            </div>
-          </td>
-        </tr>
-      </table>
-      <table
-        th:if="${randomValue == 3}"
-        class="yellowTableBG"
-      >
-        <tr>
-          <td
-            class="tableText"
-          >
-          안녕하세요. Leets입니다. <br />
-          귀한 시간을 내어 Leets에 많은 관심을 가지고 지원해 주셔서 감사합니다.
-          <br />
-          <br />
-          최종 합격은 지원서와 면접을 면밀히 검토하여 결정했습니다. <br />
-          <br />
-          제한 된 모집 인원으로 인해 Leets와 함께할 수 없다는 말씀을 전해드려 아쉬운 마음입니다.
-          <br />
-          비록 이번에는 지원자와 임원진의 입장에서 만나 뵙게 되었지만 <br />
-          추후 동료 대 동료의 입장으로 다시 만나 뵐 날을 기대하겠습니다.
-          <br />
-          <br />
-          Leets에 지원해 주셔서 다시 한 번 감사합니다.
-          </td>
-        </tr>
-        <td style="height: 80px"></td>
-        <tr>
-          <td
-            class="footerText"
-          >
-            <div style="margin-bottom: 8px">
-              오픈채팅:
-              <a href="https://open.kakao.com/o/sObD2U5e"
-                >https://open.kakao.com/o/sObD2U5e</a
-              >
-            </div>
-          </td>
-        </tr>
-      </table>
+      
     </div>
   </body>
 </html>
