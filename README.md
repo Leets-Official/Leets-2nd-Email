@@ -45,29 +45,29 @@ _( 현재 이 레포지토리에는 Spring Boot 코드는 포함되어 있지 �
 1. **서류 합격**  
    <br/>
 
-   ![Imgur](https://i.imgur.com/ydRmUPX.png)
+   <img src="https://i.imgur.com/ydRmUPX.png" width="360px" />
    <br/><br/>
 
 2. **서류 불합격**  
    <br/>
 
-   <img src="https://i.imgur.com/iMcMaZr.png)" width="406px" height="1200px" />
+   <img src="https://i.imgur.com/iMcMaZr.png" width="360px" />
    <br/><br/>
 
 3. **최종 합격**
    <br/>
 
-   ![Imgur](https://i.imgur.com/UoXhh0m.png)  
+   <img src="https://i.imgur.com/UoXhh0m.png" width="360px" height="1100px"/>  
     <br/><br/>
 
 4. **최종 불합격**
    <br/>
 
-   ![Imgur](https://i.imgur.com/JGUeP92.png)  
+   <img src="https://i.imgur.com/JGUeP92.png" width="360px" height="1100px"/>  
     <br/><br/>
 
 5. **추가 모집 공지**
    <br/>
 
-   ![Imgur](https://i.imgur.com/iTpVU8F.png)
+   <img src="https://i.imgur.com/iTpVU8F.png" width="360px" />
    <br/><br/>
