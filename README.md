@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 1. Leets 2기 모집 Email Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+동아리 Leets의 2기 모집 서류, 면접 결과 공지를 위한 email form 코드입니다.  
+<br/><br/>
 
-### `npm start`
+# 2. 프로젝트 진행 이유
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
 
-### `npm test`
+동아리 **Leets 2기**의 모집 결과를 메일로 자동화 하여 공지하기 위해 진행하게 되었습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Leets만의 이메일 디자인을 사용하여 동아리 특색을 살리기 위한 목적도 있습니다.
 
-### `npm run build`
+Back End에 저장된 지원자들의 정보를 자동으로 배당하여 편하게 메일을 보내고자 하였습니다.  
+<br/><br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 3. 프로젝트 설명
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `npm run eject`
+Spring Boot에서 Time Leaf 문법을 활용해, html로 구성된 이메일을 전송하는 프로그램입니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+th:class와 삼항 연산자를 활용하여 동적 class명 할당을 통해 email form의 색상을 랜덤(blue, mint, yellow)으로 전송하였습니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+이름, 면접 날짜, 장소 등의 정보도 Time Leaf 문법을 사용하여 email form에 동적으로 할당하여 해야 할 일을 최소화 하고자 하였습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Spring Boot에서 Leets 2기 홈페이지에서 전달 받은 지원자들의 정보를 바탕으로 메일을 보내게 되고, 서류 합격자들의 면접 참여 여부를 관리자 페이지에서 자동으로 확인 할 수 있게 구현 되었습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_( 현재 이 레포지토리에는 Spring Boot 코드는 포함되어 있지 않고, email form, 즉 디자인 요소만 작성된 코드입니다. )_
+<br/>
 
-## Learn More
+서류 합격, 서류 불합격, 최종 합격, 최종 불합격, 추가 모집에 대한 공지 메일까지 총 5개의 email form이 작성 되어 있습니다.  
+<br/><br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 4.. 미리보기
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **서류 합격**  
+   <br/>
 
-### Analyzing the Bundle Size
+   ![Imgur](https://i.imgur.com/ydRmUPX.png)
+   <br/><br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **서류 불합격**  
+   <br/>
 
-### Making a Progressive Web App
+   ![Imgur](https://i.imgur.com/iMcMaZr.png)
+   <br/><br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **최종 합격**
+   <br/>
 
-### Advanced Configuration
+   ![Imgur](https://i.imgur.com/UoXhh0m.png)  
+    <br/><br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. **최종 불합격**
+   <br/>
 
-### Deployment
+   ![Imgur](https://i.imgur.com/JGUeP92.png)  
+    <br/><br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. **추가 모집 공지**
+   <br/>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ![Imgur](https://i.imgur.com/iTpVU8F.png)
+   <br/><br/>
