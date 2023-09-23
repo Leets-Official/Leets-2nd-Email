@@ -1,15 +1,15 @@
-# 1. Leets 2기 모집 Email Form
+![Imgur](https://i.imgur.com/38mBqej.png)
 
----
+<br/>
+
+# :one: Leets 2기 모집 Email Form
 
 <br/>
 
 동아리 Leets의 2기 모집 서류, 면접 결과 공지를 위한 email form 코드입니다.  
 <br/><br/>
 
-# 2. 프로젝트 진행 이유
-
----
+# :two: 프로젝트 진행 이유
 
 <br/>
 
@@ -20,15 +20,13 @@ Leets만의 이메일 디자인을 사용하여 동아리 특색을 살리기 �
 Back End에 저장된 지원자들의 정보를 자동으로 배당하여 편하게 메일을 보내고자 하였습니다.  
 <br/><br/>
 
-# 3. 프로젝트 설명
-
----
+# :three: 프로젝트 설명
 
 <br/>
 
-Spring Boot에서 Time Leaf 문법을 활용해, html로 구성된 이메일을 전송하는 프로그램입니다.
+**Spring Boot**에서 **Time Leaf** 문법을 활용해, **html**로 구성된 이메일을 전송하는 프로그램입니다.
 
-th:class와 삼항 연산자를 활용하여 동적 class명 할당을 통해 email form의 색상을 랜덤(blue, mint, yellow)으로 전송하였습니다.
+**th:class**와 **삼항 연산자**를 활용하여 동적 class명 할당을 통해 email form의 색상을 랜덤(🔵blue, 🔵:green_circle:mint, :yellow_circle:yellow)으로 전송하였습니다.
 
 이름, 면접 날짜, 장소 등의 정보도 Time Leaf 문법을 사용하여 email form에 동적으로 할당하여 해야 할 일을 최소화 하고자 하였습니다.
 
@@ -40,9 +38,7 @@ _( 현재 이 레포지토리에는 Spring Boot 코드는 포함되어 있지 �
 서류 합격, 서류 불합격, 최종 합격, 최종 불합격, 추가 모집에 대한 공지 메일까지 총 5개의 email form이 작성 되어 있습니다.  
 <br/><br/>
 
-# 4.. 미리보기
-
----
+# :four: 미리보기
 
 <br/>
 
@@ -55,7 +51,7 @@ _( 현재 이 레포지토리에는 Spring Boot 코드는 포함되어 있지 �
 2. **서류 불합격**  
    <br/>
 
-   ![Imgur](https://i.imgur.com/iMcMaZr.png)
+   <img src="https://i.imgur.com/iMcMaZr.png)" width="406px" height="1200px" />
    <br/><br/>
 
 3. **최종 합격**
