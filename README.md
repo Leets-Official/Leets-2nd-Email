@@ -24,7 +24,7 @@ Back End에 저장된 지원자들의 정보를 자동으로 배당하여 편하
 
 <br/>
 
-**Spring Boot**에서 **Time Leaf** 문법을 활용해, **html**로 구성된 이메일을 전송하는 프로그램입니다.
+**Spring Boot**에서 **thymeleaf** 문법을 활용해, **html**로 구성된 이메일을 전송하는 프로그램입니다.
 
 **th:class**와 **삼항 연산자**를 활용하여 동적 class명 할당을 통해 email form의 색상을 랜덤(🔵blue, :green_circle:mint, :yellow_circle:yellow)으로 전송하였습니다.
 
